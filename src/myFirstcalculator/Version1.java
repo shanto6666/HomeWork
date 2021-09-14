@@ -7,57 +7,49 @@ import java.util.Scanner;
 public class Version1 {
 
 // Executable method = main
-	
-public static void main(String[] args) {
 
-	
+	public static void main(String[] args) {
+
 // Create Scanner object for taking input from user
-Scanner input = new Scanner(System.in);	
+		Scanner input = new Scanner(System.in);
 
-
-double number1,number2,calculation;	// Declare variable
+		double number1, number2, calculation; // Declare variable
 // Welcome
-System.out.println("Welcome to my calculator");
+		System.out.println("Welcome to my calculator");
 
-System.out.println("====================================");
+		System.out.println("====================================");
 
-System.out.print("Please enter First number :");
+		System.out.print("Please enter First number :");
 //Getting first number from user
-number1 =input.nextDouble();
+		number1 = input.nextDouble();
 
-System.out.print("Great! now enter Second number:");
+		System.out.print("Great! now enter Second number:");
 //Getting second number from user
 
-number2 =input.nextDouble();
+		number2 = input.nextDouble();
 
-calculation = number1 + number2;// Addition
+		calculation = number1 + number2;// Addition
 
-System.out.println("Addition of two number = "+ calculation);
+		System.out.println("Addition of two number = " + calculation);
 
-calculation = number1 - number2;// Subtraction
+		calculation = number1 - number2;// Subtraction
 
-System.out.println("Subtraction of two number = "+ calculation);
+		System.out.println("Subtraction of two number = " + calculation);
 
-calculation = number1* number2;// Multiplication
+		calculation = number1 * number2;// Multiplication
 
-System.out.println("Multiplication of two number = "+ calculation);
+		System.out.println("Multiplication of two number = " + calculation);
 
-calculation = number1 / number2;//Division
+		calculation = number1 / number2;// Division
 
-System.out.println("Division of two number = "+ calculation);
+		System.out.println("Division of two number = " + calculation);
 
-System.out.println("====================================");
+		System.out.println("====================================");
 
-System.out.println("Thank you for using my calculator");
+		System.out.println("Thank you for using my calculator");
 
+		input.close();// To close Scanner object
 
-input.close();// To close Scanner object
+	}
 
-
-}	
-	
-	
-	
-	
-		
 }
