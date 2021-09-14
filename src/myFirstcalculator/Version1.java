@@ -11,7 +11,7 @@ public class Version1 {
 public static void main(String[] args) {
 
 	
-// Create Scanner for taking input from user
+// Create Scanner object for taking input from user
 Scanner input = new Scanner(System.in);	
 
 
@@ -51,7 +51,7 @@ System.out.println("====================================");
 System.out.println("Thank you for using my calculator");
 
 
-input.close();// Scanner close
+input.close();// To close Scanner object
 
 
 }	
