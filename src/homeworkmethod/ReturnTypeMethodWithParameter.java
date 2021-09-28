@@ -51,7 +51,7 @@ public static boolean isTicketAvailable(String ticket, char day, int price) {
 	char dayticket=day;
 	int ticketPrice=price;
 	
-	if (dayticket=='N') {
+	if (dayticket=='D') {
 		System.out.println("Yes Day ticket is avaialable");
 	} else {
 		System.out.println("No Day ticket is not avaialable");
